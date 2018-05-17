@@ -29,6 +29,9 @@
 }
 ::placeholder{
     color: var(--small_blue) !important;
+}
+body{
+    font-family: 'Roboto', sans-serif !important;
 } 
 /* debut header */
 header{
