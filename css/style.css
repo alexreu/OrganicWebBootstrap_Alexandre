@@ -1,0 +1,206 @@
+:root{
+    --small_blue: #28BBEA;
+    --small_gray: #ECEBE9;
+    --md_gray: #424242;
+    --xtra-gray: #2D2D2D;
+    --small_black: #1D1111;
+    --white: #fff; 
+}  
+.nav_black{
+    background-color: rgba(0, 0, 0, 1) !important;
+} 
+.white{
+    color: var(--white) !important;
+} 
+.blue{
+    color: var(--small_blue) !important;
+}
+.bg_blue{
+    background-color: var(--small_blue) !important;
+} 
+.black{
+    color: var(--small_black) !important;
+}
+.bg_black{
+    background-color: var(--small_black) !important;
+}  
+.no_border{
+    border: 0 !important;
+}
+::placeholder{
+    color: var(--small_blue) !important;
+} 
+/* debut header */
+header{
+    background: url(../img/home.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.overlay{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+.header_content{
+    height: 100vh;
+    z-index: 2;
+}
+.header_button{
+    background-color: var(--md_gray) !important;
+
+} 
+/* fin header */
+
+/* debut service */
+.service_title{
+    color: var(--small_black);
+}
+.service_icon{
+    z-index: 3;
+    top: 7%;
+    width: 25%;
+    background-color: #fff; 
+    color: var(--small_blue);
+}
+/* fin service */
+
+/* debut numbers */
+#numbers{
+    background: url(../img/home.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+} 
+.overlay_numbers{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 400px;
+}
+.numbers_row{
+    height: 400px;
+} 
+/* fin numbers */
+
+
+/* debut portfolio */
+#portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}  
+.btn_portfolio{
+    transition: 0.5s all !important;
+    border: 2px solid var(--small_black) !important;
+    border-radius: 3px !important;
+} 
+.btn_portfolio:hover{
+    color: #fff !important;
+    background-color: var(--small_black) !important;
+}
+.btn_porfolio_active{
+    color: #fff !important;
+    background-color: var(--small_black) !important;
+}
+.portfolio_card{
+    transition: 0.6s all;
+}
+.portfolio_card:hover{
+    transform: scale(1.13);
+}  
+/* fin portfolio */
+
+
+/* debut slider */
+#slider{
+    background-color: var(--xtra-gray);
+    height: 700px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+} 
+.img_slider{
+    height: auto;
+    width: 12%;
+} 
+.carousel-inner{
+    height: 600px;
+} 
+.slider_text{
+    font-size: 25px !important;
+
+}
+.previous{
+    background-color: var(--md_gray) !important;
+    height: 50px;
+    width: 50px !important;
+    top: 50% !important;
+    left: 10% !important;
+} 
+.next{
+    background-color: var(--md_gray) !important;
+    height: 50px;
+    width: 50px !important;
+    top: 50% !important;
+    right: 10% !important;
+}   
+/* fin slider */
+
+/* debut pricing */
+#pricing{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.price{
+    background-color: var(--small_blue);
+    height: 150px;
+    width: 150px;
+}
+.btn_pricing{
+    background-color: var(--small_black) !important;
+    color: var(--white) !important;
+}
+/* fin pricing */
+
+/* debut logo */
+#logo{
+    background-color: var(--small_gray);
+}  
+
+/* fin logo */
+
+/* debut news */
+#news{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F4F4F4;
+}  
+/* fin news */
+
+/* debut contact */
+#contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}  
+.contact_button{
+    color: #fff !important;
+    background-color: var(--small_black) !important;
+    border-radius: 2px !important; 
+}
+/* fin contact */
+
+/* debut footer */
+#footer{
+    background-color: var(--small_black);
+    height: 300px;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+} 
+.logo_footer{
+    width: 40px;
+    height: 40px;
+}
+/* fin footer */
